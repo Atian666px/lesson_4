@@ -1,0 +1,29 @@
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    padding: 0px 12px;
+    color: $neutral-300;
+    font-weight: 700;
+}
+
+.breadcrumb-item{
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.breadcrumb-link{
+    color: $neutral-600;
+}
+
+.breadcrumb-link:hover {
+    color: $primary-400;
+}
+
+@media (max-width: 767px) {
+    .breadcrumb-item + .breadcrumb-item::before {
+        padding: 0px 8px;
+    }
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+}

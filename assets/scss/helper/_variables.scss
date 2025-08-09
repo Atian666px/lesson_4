@@ -1,0 +1,171 @@
+$neutral-0: #ffffff;
+$neutral-100: #F8F9FA;
+$neutral-200: #E9ECEF;
+$neutral-300: #DEE2E6;
+$neutral-400: #CED4DA;
+$neutral-500: #ADB5BD;
+$neutral-600: #6C757D;
+$neutral-700: #495057;
+$neutral-800: #343A40;
+$neutral-900: #212529;
+
+$primary-100: #F5FEE7;
+$primary-200: #E8FEC5;
+$primary-300: #C0FA73;
+$primary-400: #57A203;
+$primary-500: #477A11;
+
+$danger-300: #D74F4F;
+
+.text-neutral-400 {
+    color: $neutral-400;
+}
+
+.text-neutral-500 {
+    color: $neutral-500;
+}
+
+.text-neutral-600 {
+    color: $neutral-600;
+}
+
+.text-primary-100 {
+    color: $primary-100;
+}
+
+.text-primary-200 {
+    color: $primary-200;
+}
+
+.text-primary-300 {
+    color: $primary-300;
+}
+
+@media  (max-width: 576px) {
+    .text-primary-md-100 {
+    color: $primary-100;
+    }
+    .text-primary-md-200 {
+    color: $primary-200;
+    }
+}
+
+/*字體設定*/
+
+.display1 {
+    font-size: 64px;
+	line-height: 1.2;
+	font-weight: 700;
+
+}
+
+.display2 {
+    font-size: 48px;
+	line-height: 1.2;
+	font-weight: 700;
+
+}
+
+.h1 {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.tw-label-lg{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.tw-label-md{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.tw-label-sm{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .display2-md {
+        font-size: 48px;
+    }
+    .h2-md{
+        font-size: 32px;
+    }
+    .h3-md {
+        font-size: 28px;
+    }
+    .h4-md {
+        font-size: 24px;
+    }
+    .h5-md {
+        font-size: 20px;
+    }
+    .h6-md {
+        font-size: 16px;
+    }
+    .tw-label-md{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 576px) {
+    .h3-sm {
+        font-size: 28px;
+    }
+    .h4-sm {
+        font-size: 24px;
+    }
+    .h5-sm {
+        font-size: 20px;
+    }
+    .h6-sm {
+        font-size: 16px;
+    }
+    .text-sm {
+        font-size: 14px;
+    }   
+}
+
+.text-sm{
+	font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
