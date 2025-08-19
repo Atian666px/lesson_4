@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+@import "./helpers/mixins";
+@import "./helpers/variables";
+@import "./helpers/utils";
+
+@import "./base/reset";
+@import "./base/base";
+
+@import "./components/breadcrumb";
+@import "./components/button"; 
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/grid";
+
+@import "./pages/index";
+@import "./pages/product_list";
+@import "./pages/brand_story";

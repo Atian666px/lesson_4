@@ -1,0 +1,36 @@
+.category-list .active{
+    color: $primary-400;
+}
+
+.category-list a:hover{
+    color: $primary-400;
+}
+
+.col-4 h2{
+    font-weight: 700;
+}
+
+.page-item .btn{
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+    width:40px;
+    height: 40px;
+}
+
+.page-item .btn.active{
+    background-color: $primary-300;
+}
+
+.page-item .btn:hover{
+    background-color: $neutral-100;
+    font-weight: 500;
+}
+
+.page-item .btn:disabled:hover {
+    background-color: inherit;
+    font-weight: inherit;
+    cursor: default;
+}
+

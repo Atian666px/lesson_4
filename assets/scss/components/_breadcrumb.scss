@@ -1,0 +1,28 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: '/';
+    padding: 0px 12px;
+    color: $neutral-300;
+    font-weight: 700;
+
+    @include mobile {
+        padding: 0px 8px;
+    }
+}
+
+.breadcrumb-item {
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+
+    @include mobile {
+        font-size: 14px;
+    }
+}
+
+.breadcrumb-link {
+    color: $neutral-600;
+}
+
+.breadcrumb-link:hover {
+    color: $primary-400;
+}
